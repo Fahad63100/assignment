@@ -13,5 +13,5 @@ How to Run the tests and generate Code Coverage Report:
 
 - Now open the Report navigator in Xcode’s navigation pane, and select the Test report from the list. This should open up a list of the tests that were just run and indicate which passed and failed. In this case, they all passed.
 
--To view code coverage, select the Coverage tab. Xcode will display the overall code coverage for the framework, and we can expand this to get coverage data on individual files and functions.
+- To view code coverage, select the Coverage tab. Xcode will display the overall code coverage for the framework, and we can expand this to get coverage data on individual files and functions.
 
