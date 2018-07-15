@@ -122,7 +122,7 @@
         
         if(![ValidationHelper isStringEmpty:mediaImageURL])
         {
-            UIImage *placeHolderImg = [UIImage imageNamed:@""];
+            UIImage *placeHolderImg = [UIImage imageNamed:@"placeHolderImage"];
             
             NSURL *imgURL = [NSURL URLWithString:mediaImageURL];
             [cell.imgArticleMediaPhoto setImageWithURL:imgURL placeholderImage:placeHolderImg];
